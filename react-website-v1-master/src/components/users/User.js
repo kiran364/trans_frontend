@@ -20,7 +20,7 @@ const User = () => {
   return (
     <div className="container py-4">
       <Link className="btn btn-primary" to="/UserHome">
-        back to Home
+        Back To Home
       </Link>
       <h1 className="display-4">Requested User Info For: {user.name}</h1>
       <hr />
